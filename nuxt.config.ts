@@ -4,15 +4,9 @@ const isDev = process.env.NODE_ENV === 'development'
 
 export default defineNuxtConfig({
   ssr: false,
-<<<<<<< Updated upstream
-  /*  app: {
-    baseURL: 'jeffersonbrasilino.github.io',
-  }, */
-=======
   app: {
-    baseURL: '/jeffersonbrasilino.github.io/',
+    baseURL: 'jeffersonbrasilino.github.io',
   },
->>>>>>> Stashed changes
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
