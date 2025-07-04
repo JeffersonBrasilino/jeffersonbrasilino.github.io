@@ -10,20 +10,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Generate static Nuxt 3 files
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "22"
-      # - uses: pnpm/action-setup@v4
-      #   with:
-      #     version: 10
-      
-      - run: |
-          npm install
-          npm generate
+          node-version: '22'
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+      - name: Install dependencies
+        run: pnpm install
+      - name: Generate static Nuxt 3 files
+        run: pnpm generate
       - name: Init new repo in $BUILD_FOLDER and commit generated files
         run: |
-          grep -rnwl "<link rel=\"prefetch\"" $BUILD_FOLDER | xargs sed -i 's$<link rel="prefetch" href="[^"]*\.\(jpg\|png\|webm\|jpeg\|ttg\|svg\|gif\)">$$g'
+          grep -rnwl "<link rel=\"prefetch\"" $BUILD_FOLDER | xargs sed -i 's$<link rel="prefetch" href="[^"]*\.(jpg\|png\|webm\|jpeg\|ttg\|svg\|gif)">$$g'
           cd $BUILD_FOLDER
           touch .nojekyll
           git init
