@@ -9,41 +9,6 @@
       "name": "Noite de Outono",
       "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
       "purchaseLink": "https://example.com/buy/noite-de-outono"
-    },
-    {
-      "name": "Lágrimas do Amanhã",
-      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/lagrimas-do-amanha"
-    },
-    {
-      "name": "Céu de Primavera",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/ceu-de-primavera"
-    },
-    {
-      "name": "Noite de Outono",
-      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/noite-de-outono"
-    },
-    {
-      "name": "Lágrimas do Amanhã",
-      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/lagrimas-do-amanha"
-    },
-    {
-      "name": "Céu de Primavera",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/ceu-de-primavera"
-    },
-    {
-      "name": "Noite de Outono",
-      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/noite-de-outono"
-    },
-    {
-      "name": "Lágrimas do Amanhã",
-      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/lagrimas-do-amanha"
     }
   ],
   "miniDramas": [
@@ -66,31 +31,6 @@
       "name": "Céu de Primavera",
       "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
       "purchaseLink": "https://example.com/buy/ceu-de-primavera"
-    },
-    {
-      "name": "Noite de Outono",
-      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/noite-de-outono"
-    },
-    {
-      "name": "Lágrimas do Amanhã",
-      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/lagrimas-do-amanha"
-    },
-    {
-      "name": "Céu de Primavera",
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/ceu-de-primavera"
-    },
-    {
-      "name": "Noite de Outono",
-      "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/noite-de-outono"
-    },
-    {
-      "name": "Lágrimas do Amanhã",
-      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
-      "purchaseLink": "https://example.com/buy/lagrimas-do-amanha"
     }
   ]
 }
