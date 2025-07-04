@@ -1,1 +1,0 @@
-import{b as e}from"./BgfXOMNT.js";import{a as r,o as n,J as t}from"./E5yYTOSB.js";const s={},c={grid:"~ cols-minmax-10rem lg:cols-minmax-15rem",gap4:"",p8:""};function _(o,a){return n(),r("div",c,[t(o.$slots,"default")])}const l=e(s,[["render",_]]);export{l as _};
